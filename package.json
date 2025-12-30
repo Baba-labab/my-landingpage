@@ -9,7 +9,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "tw:built":"npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "tw:built":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
